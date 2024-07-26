@@ -82,7 +82,25 @@ Define o serviço triggerer do Airflow, responsável por disparar tarefas basead
 
 Serviço responsavel por inicializar o banco de dados do Airflow e criar o usuario web inicial.
 
+#### 8. Airflow CLI:
 
+<img src="https://github.com/JosiTubaroski/Leitura_Docker_Compose_Airflow/blob/main/img/13_Airflow_CLI.png">
+
+Serviço para executar comandos da linha de comando do Airflow.
+
+#### 9. Flower:
+
+<img src="https://github.com/JosiTubaroski/Leitura_Docker_Compose_Airflow/blob/main/img/14_Flower.png">
+
+Serviço para monitoramento do Celery.
+
+### Volumes
+
+<img src="https://github.com/JosiTubaroski/Leitura_Docker_Compose_Airflow/blob/main/img/15_Volumes.png">
+
+Define um volume Docker para persistir os dados do PostegreSQL.
+
+Esse <b>'docker-compose.yml'</b> configura uma arquitetura completa para executar o Apache Airflow em um ambiente distribuído com PostgreSQL, Redis e vários serviços do Airflow. 
 
 
 
